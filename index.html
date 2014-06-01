@@ -4,6 +4,7 @@
 	<script type="text/javascript" src="ladder.json"></script>
 	<script type="text/javascript" src="ladder.js"></script>
 	<link rel="stylesheet" href="style.css" />
+	<title>XenServer Backgammon Ladder</title>
 </head>
 <body onload="build()">
 <div class="wrapper">
@@ -13,24 +14,30 @@
 	<p>This page is automatically updated as a result of editing files in the following repository:</p>
 
 	<ul>
-		<li><a href="https://github.com/robhoes/elo-ladder-games/edit/master/players">Add a <strong>Player</strong></a></li>
-		<li><a href="https://github.com/robhoes/elo-ladder-games/edit/master/games">Add a <strong>Game</strong></a></li>
-		<li><a href="http://github.com/robhoes/elo-ladder">View the <strong>Readme</strong></a></li>
+		<li><a href="https://github.com/stephen-turner/elo-ladder/edit/master/players">Add a <strong>Player</strong></a></li>
+		<li><a href="https://github.com/stephen-turner/elo-ladder/edit/master/games">Add a <strong>Game</strong></a></li>
+		<li><a href="http://github.com/stephen-turner/elo-ladder">View the <strong>Readme</strong></a></li>
 	</ul>
 
-	<p>To join the ladder, add yourself to the <a href="https://github.com/robhoes/elo-ladder-games/edit/master/games"><strong><em>players</em></strong></a> file with a starting rating of 1500.</p>
+	<p>To join the ladder, add yourself to the <a href="https://github.com/stephen-turner/elo-ladder/edit/master/games"><strong><em>players</em></strong></a> file with a starting rating of 1500.</p>
 
-	<p>To add the result of a game, edit the <a href="https://github.com/robhoes/elo-ladder-games/edit/master/games"><strong><em>games</em></strong></a> file in the same repository.</p>
+	<p>To add the result of a game, edit the <a href="https://github.com/stephen-turner/elo-ladder/edit/master/games"><strong><em>games</em></strong></a> file in the same repository.</p>
 
 	<p>Both of these can be done by using Github’s web interface (use the buttons above).</p>
 
-	<p><strong>Ladder matches are 15 minute games</strong></p>
+<h3>Rules</h3>
+
+<ol>
+<li>You may play a match to any length&nbsp;<i>n</i>. The first player to reach that score wins. Only winning or losing counts; the exact score doesn't matter.
+<li>The Crawford rule is in effect: if one player reaches (<i>n</i> - 1) points, the other player may not double in the next game, but may double at any time in subsequent games.</li>
+</ol>
+
 	<hr>
-	<p>This project is maintained by <a href="https://github.com/robhoes">robhoes</a> and <a href="https://github.com/simonjbeaumont">simonjbeaumont</a>. This page is hosted on GitHub Pages.</p>
+	<p>This project is maintained by <a href="https://github.com/stephen-turner">Stephen Turner</a>. This page is hosted on GitHub Pages.</p>
 </header>
 
 <section>
-	<h1>XenServer Chess Ladder</h1>
+	<h1>XenServer Backgammon Ladder</h1>
 	
 	<ul>
 		<li><a onclick="build_ladder()">Show <strong>Ladder</strong></a></li>
